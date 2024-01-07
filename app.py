@@ -188,9 +188,9 @@ def ProcessLr(data, is_test_set=False):
 
 # Model
 my_model = LogisticRegression()
-X, Y = ProcessLr(train, is_test_set=False)
-my_model.fit(X, Y)
+# X, Y = ProcessLr(train, is_test_set=False)
+# , Y)
 # Model Predictions
-Y_pred = my_model.predict(X)
-training_accuracy = np.mean(Y_pred == Y)
-print("Training Accuracy: ", training_accuracy)
+# # Y_pred = my_model.predict(X)
+# training_accuracy = np.mean(Y_pred == Y)
+# print("Training Accuracy: ", training_accuracy)
